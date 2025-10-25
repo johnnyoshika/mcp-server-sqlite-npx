@@ -6,14 +6,6 @@ A Node.js implementation of the Model Context Protocol SQLite server, based on t
 
 ## Use with Claude Desktop
 
-### Installing via Smithery
-
-To install MCP SQLite Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/mcp-server-sqlite-npx):
-
-```bash
-npx -y @smithery/cli install mcp-server-sqlite-npx --client claude
-```
-
 ### Installing Manually
 
 Add the following to `claude_desktop_config.json`:
@@ -77,6 +69,14 @@ Full example when using nvm on Windows:
     }
   }
 }
+```
+
+### Installing via Smithery
+
+To install MCP SQLite Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/mcp-server-sqlite-npx):
+
+```bash
+npx -y @smithery/cli install mcp-server-sqlite-npx --client claude
 ```
 
 ## Development
