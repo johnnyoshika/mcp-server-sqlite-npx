@@ -31,6 +31,8 @@ Add the following to `claude_desktop_config.json`:
 
 Full example when using nvm on macoS:
 
+`~/Library/Application Support/Claude/claude_desktop_config.json`
+
 ```json
 {
   "mcpServers": {
@@ -51,6 +53,8 @@ Full example when using nvm on macoS:
 ```
 
 Full example when using nvm on Windows:
+
+`%APPDATA%\Claude\claude_desktop_config.json`
 
 ```json
 {
